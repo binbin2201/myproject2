@@ -1,4 +1,4 @@
-package com.bin;
+package com.bin.score;
 
 public class Student {
     String name;

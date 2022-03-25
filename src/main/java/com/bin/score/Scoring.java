@@ -1,4 +1,4 @@
-package com.bin;
+package com.bin.score;
 
 public class Scoring {
     public static void main(String[] args) {
@@ -13,5 +13,12 @@ public class Scoring {
         //student.math = 78;
 
     }
+
+    public static class GraduateStudent extends Student {
+        public GraduateStudent (String name){
+            super(name);
+        }
+
     }
+}
 
