@@ -14,6 +14,7 @@ public class MainWindow {
         frame.setSize(400,300);
         frame.setLocation(200, 200);
         JButton button = new JButton("ok");
+        JLabel label = new JLabel();
         frame.add(button);
         //MyActionListener listener = new MyActionListener();
         button.addActionListener(new ActionListener() {
